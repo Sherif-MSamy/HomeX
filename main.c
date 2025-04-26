@@ -1,5 +1,21 @@
-
-
+/*
+8051_Load_Control_System/
+│
+├── 📄 main.c                 - Core application logic
+├── 📄 lcd.h                  - LCD display interface
+├── 📄 lcd.c                  - LCD driver (I2C)
+├── 📄 keypad.h               - Keypad interface
+├── 📄 keypad.c               - 4x4 matrix keypad driver
+├── 📄 uart.h                 - UART (Bluetooth) interface
+├── 📄 uart.c                 - UART communication driver
+├── 📄 password.h             - Password authentication interface
+├── 📄 password.c             - Password verification logic
+├── 📄 delay.h                - Delay function declarations
+├── 📄 delay.c                - Millisecond delay implementation
+├── 📄 i2c.h                  - I2C protocol interface
+├── 📄 i2c.c                  - I2C communication driver
+└── 📄 README.md              - Project documentation
+*/
 
 #include <REG51.H>
 #include "password.h"
