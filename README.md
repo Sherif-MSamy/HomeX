@@ -93,7 +93,7 @@ This project implements a **secure load control system** using an **8051 microco
 ---
 
 ## **🔗 Dependencies**  
-- **Keil C51** (for compilations)  
+- **Keil C51** (for compilation)  
 - **Proteus** (for simulation)  
 
 ---
